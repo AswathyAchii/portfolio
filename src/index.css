@@ -451,6 +451,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   width: 320px;
   height: 320px;
+  overflow: visible;
 }
 .hero-image-ring {
   position: absolute;
@@ -505,9 +506,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 0.4rem;
 }
-.floating-tag-1 { top: 10%; right: -20px; animation: float 3s ease-in-out infinite; }
-.floating-tag-2 { bottom: 15%; left: -30px; animation: float 3s ease-in-out infinite 1.5s; }
-.floating-tag-3 { bottom: 30%; right: -10px; animation: float 3s ease-in-out infinite 0.8s; }
+.floating-tag-1 { top: -18px;  right: 10px;  animation: float 3s ease-in-out infinite; }
+.floating-tag-2 { top: 30px;   left: -110px; animation: float 3s ease-in-out infinite 1.5s; }
+.floating-tag-3 { top: 90px;   right: -10px; animation: float 3s ease-in-out infinite 0.8s; }
 
 /* ─── About ───────────────────────────────────────────────────── */
 .about { background: var(--bg-2); }
