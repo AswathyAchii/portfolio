@@ -507,9 +507,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 0.4rem;
 }
-.floating-tag-1 { top: 10px;  right: 10px;  animation: float 3s ease-in-out infinite; }
-.floating-tag-2 { top: 50px;  left: 10px;   animation: float 3s ease-in-out infinite 1.5s; }
-.floating-tag-3 { top: 100px; right: 10px;  animation: float 3s ease-in-out infinite 0.8s; }
+.floating-tag-1 { top: 8px;       right: 8px;    animation: float 3s ease-in-out infinite; }
+.floating-tag-2 { bottom: 60px;   left: 8px;     animation: float 3s ease-in-out infinite 1.5s; }
+.floating-tag-3 { bottom: 8px;    right: 8px;    animation: float 3s ease-in-out infinite 0.8s; }
 
 /* ─── About ───────────────────────────────────────────────────── */
 .about { background: var(--bg-2); }
